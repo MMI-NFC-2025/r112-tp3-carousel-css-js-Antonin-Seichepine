@@ -42,10 +42,12 @@ img {
 
 .carousel__item {
   /* IMPORTANT : pas de flex-grow, largeur fixe > pour forcer l’overflow */
-  flex: 0 0 260px;
+  flex: 0 0 400px;
   /* chaque item fait 260px de large */
   scroll-snap-align: center;
 }
+
+
 
 .carousel__item img {
   display: block;
